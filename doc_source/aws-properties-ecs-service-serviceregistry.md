@@ -47,7 +47,7 @@ The port value used if your service discovery service specified an SRV record\. 
 *Update requires*: [Replacement](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-replacement)
 
 `RegistryArn`  <a name="cfn-ecs-service-serviceregistry-registryarn"></a>
-The Amazon Resource Name \(ARN\) of the service registry\. The currently supported service registry is AWS Cloud Map\. For more information, see [CreateService](https://docs.aws.amazon.com/cloud-map/latest/api/API_CreateService.html)\.  
+The Amazon Resource Name \(ARN\) of a _Service Record_ contained within a given Service Registry namespace. For more information, see [CreateService](https://docs.aws.amazon.com/cloud-map/latest/api/API_CreateService.html)\.  
 *Required*: No  
 *Type*: String  
 *Update requires*: [Replacement](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-replacement)
